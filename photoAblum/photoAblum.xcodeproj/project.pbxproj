@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DE5AA51957045900322086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AA41957045900322086 /* Foundation.framework */; };
+		04DE5AA71957045900322086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AA61957045900322086 /* CoreGraphics.framework */; };
+		04DE5AA91957045900322086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AA81957045900322086 /* UIKit.framework */; };
+		04DE5AAF1957045900322086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AAD1957045900322086 /* InfoPlist.strings */; };
+		04DE5AB11957045900322086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE5AB01957045900322086 /* main.m */; };
+		04DE5AB51957045900322086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE5AB41957045900322086 /* AppDelegate.m */; };
+		04DE5AB81957045900322086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AB61957045900322086 /* Main.storyboard */; };
+		04DE5ABB1957045900322086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE5ABA1957045900322086 /* ViewController.m */; };
+		04DE5ABD1957045900322086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ABC1957045900322086 /* Images.xcassets */; };
+		04DE5AC41957045900322086 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AC31957045900322086 /* XCTest.framework */; };
+		04DE5AC51957045900322086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AA41957045900322086 /* Foundation.framework */; };
+		04DE5AC61957045900322086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE5AA81957045900322086 /* UIKit.framework */; };
+		04DE5ACE1957045900322086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ACC1957045900322086 /* InfoPlist.strings */; };
+		04DE5AD01957045900322086 /* photoAblumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE5ACF1957045900322086 /* photoAblumTests.m */; };
+		04DE5AE91957383100322086 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AD91957383100322086 /* 0.png */; };
+		04DE5AEA1957383100322086 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADA1957383100322086 /* 1.png */; };
+		04DE5AEB1957383100322086 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADB1957383100322086 /* 2.png */; };
+		04DE5AEC1957383100322086 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADC1957383100322086 /* 3.png */; };
+		04DE5AED1957383100322086 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADD1957383100322086 /* 4.png */; };
+		04DE5AEE1957383100322086 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADE1957383100322086 /* 5.png */; };
+		04DE5AEF1957383100322086 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5ADF1957383100322086 /* 6.png */; };
+		04DE5AF01957383100322086 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE01957383100322086 /* 7.png */; };
+		04DE5AF11957383100322086 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE11957383100322086 /* 8.png */; };
+		04DE5AF21957383100322086 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE21957383100322086 /* 9.png */; };
+		04DE5AF31957383100322086 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE31957383100322086 /* 10.png */; };
+		04DE5AF41957383100322086 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE41957383100322086 /* 11.png */; };
+		04DE5AF51957383100322086 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE51957383100322086 /* 12.png */; };
+		04DE5AF61957383100322086 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE61957383100322086 /* 13.png */; };
+		04DE5AF71957383100322086 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE71957383100322086 /* 14.png */; };
+		04DE5AF81957383100322086 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AE81957383100322086 /* 15.png */; };
+		04DE5AFB1957394300322086 /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5AFA1957394300322086 /* images.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DE5AC71957045900322086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DE5A991957045900322086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DE5AA01957045900322086;
+			remoteInfo = photoAblum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DE5AA11957045900322086 /* photoAblum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoAblum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DE5AA41957045900322086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04DE5AA61957045900322086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04DE5AA81957045900322086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04DE5AAC1957045900322086 /* photoAblum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photoAblum-Info.plist"; sourceTree = "<group>"; };
+		04DE5AAE1957045900322086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04DE5AB01957045900322086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DE5AB21957045900322086 /* photoAblum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photoAblum-Prefix.pch"; sourceTree = "<group>"; };
+		04DE5AB31957045900322086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DE5AB41957045900322086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DE5AB71957045900322086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DE5AB91957045900322086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04DE5ABA1957045900322086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04DE5ABC1957045900322086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DE5AC21957045900322086 /* photoAblumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoAblumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DE5AC31957045900322086 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04DE5ACB1957045900322086 /* photoAblumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photoAblumTests-Info.plist"; sourceTree = "<group>"; };
+		04DE5ACD1957045900322086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04DE5ACF1957045900322086 /* photoAblumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoAblumTests.m; sourceTree = "<group>"; };
+		04DE5AD91957383100322086 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		04DE5ADA1957383100322086 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04DE5ADB1957383100322086 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		04DE5ADC1957383100322086 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		04DE5ADD1957383100322086 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		04DE5ADE1957383100322086 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		04DE5ADF1957383100322086 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		04DE5AE01957383100322086 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		04DE5AE11957383100322086 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		04DE5AE21957383100322086 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		04DE5AE31957383100322086 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		04DE5AE41957383100322086 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		04DE5AE51957383100322086 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		04DE5AE61957383100322086 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		04DE5AE71957383100322086 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		04DE5AE81957383100322086 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		04DE5AFA1957394300322086 /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DE5A9E1957045900322086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5AA71957045900322086 /* CoreGraphics.framework in Frameworks */,
+				04DE5AA91957045900322086 /* UIKit.framework in Frameworks */,
+				04DE5AA51957045900322086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DE5ABF1957045900322086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5AC41957045900322086 /* XCTest.framework in Frameworks */,
+				04DE5AC61957045900322086 /* UIKit.framework in Frameworks */,
+				04DE5AC51957045900322086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DE5A981957045900322086 = {
+			isa = PBXGroup;
+			children = (
+				04DE5AAA1957045900322086 /* photoAblum */,
+				04DE5AC91957045900322086 /* photoAblumTests */,
+				04DE5AA31957045900322086 /* Frameworks */,
+				04DE5AA21957045900322086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DE5AA21957045900322086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5AA11957045900322086 /* photoAblum.app */,
+				04DE5AC21957045900322086 /* photoAblumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DE5AA31957045900322086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5AA41957045900322086 /* Foundation.framework */,
+				04DE5AA61957045900322086 /* CoreGraphics.framework */,
+				04DE5AA81957045900322086 /* UIKit.framework */,
+				04DE5AC31957045900322086 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04DE5AAA1957045900322086 /* photoAblum */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5AB31957045900322086 /* AppDelegate.h */,
+				04DE5AB41957045900322086 /* AppDelegate.m */,
+				04DE5AB61957045900322086 /* Main.storyboard */,
+				04DE5AB91957045900322086 /* ViewController.h */,
+				04DE5ABA1957045900322086 /* ViewController.m */,
+				04DE5ABC1957045900322086 /* Images.xcassets */,
+				04DE5AAB1957045900322086 /* Supporting Files */,
+			);
+			path = photoAblum;
+			sourceTree = "<group>";
+		};
+		04DE5AAB1957045900322086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5AFA1957394300322086 /* images.plist */,
+				04DE5AF91957383A00322086 /* images */,
+				04DE5AAC1957045900322086 /* photoAblum-Info.plist */,
+				04DE5AAD1957045900322086 /* InfoPlist.strings */,
+				04DE5AB01957045900322086 /* main.m */,
+				04DE5AB21957045900322086 /* photoAblum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DE5AC91957045900322086 /* photoAblumTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5ACF1957045900322086 /* photoAblumTests.m */,
+				04DE5ACA1957045900322086 /* Supporting Files */,
+			);
+			path = photoAblumTests;
+			sourceTree = "<group>";
+		};
+		04DE5ACA1957045900322086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5ACB1957045900322086 /* photoAblumTests-Info.plist */,
+				04DE5ACC1957045900322086 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DE5AF91957383A00322086 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04DE5AD91957383100322086 /* 0.png */,
+				04DE5ADA1957383100322086 /* 1.png */,
+				04DE5ADB1957383100322086 /* 2.png */,
+				04DE5ADC1957383100322086 /* 3.png */,
+				04DE5ADD1957383100322086 /* 4.png */,
+				04DE5ADE1957383100322086 /* 5.png */,
+				04DE5ADF1957383100322086 /* 6.png */,
+				04DE5AE01957383100322086 /* 7.png */,
+				04DE5AE11957383100322086 /* 8.png */,
+				04DE5AE21957383100322086 /* 9.png */,
+				04DE5AE31957383100322086 /* 10.png */,
+				04DE5AE41957383100322086 /* 11.png */,
+				04DE5AE51957383100322086 /* 12.png */,
+				04DE5AE61957383100322086 /* 13.png */,
+				04DE5AE71957383100322086 /* 14.png */,
+				04DE5AE81957383100322086 /* 15.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DE5AA01957045900322086 /* photoAblum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DE5AD31957045900322086 /* Build configuration list for PBXNativeTarget "photoAblum" */;
+			buildPhases = (
+				04DE5A9D1957045900322086 /* Sources */,
+				04DE5A9E1957045900322086 /* Frameworks */,
+				04DE5A9F1957045900322086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoAblum;
+			productName = photoAblum;
+			productReference = 04DE5AA11957045900322086 /* photoAblum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DE5AC11957045900322086 /* photoAblumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DE5AD61957045900322086 /* Build configuration list for PBXNativeTarget "photoAblumTests" */;
+			buildPhases = (
+				04DE5ABE1957045900322086 /* Sources */,
+				04DE5ABF1957045900322086 /* Frameworks */,
+				04DE5AC01957045900322086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DE5AC81957045900322086 /* PBXTargetDependency */,
+			);
+			name = photoAblumTests;
+			productName = photoAblumTests;
+			productReference = 04DE5AC21957045900322086 /* photoAblumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DE5A991957045900322086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04DE5AC11957045900322086 = {
+						TestTargetID = 04DE5AA01957045900322086;
+					};
+				};
+			};
+			buildConfigurationList = 04DE5A9C1957045900322086 /* Build configuration list for PBXProject "photoAblum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DE5A981957045900322086;
+			productRefGroup = 04DE5AA21957045900322086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DE5AA01957045900322086 /* photoAblum */,
+				04DE5AC11957045900322086 /* photoAblumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DE5A9F1957045900322086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5AF11957383100322086 /* 8.png in Resources */,
+				04DE5AF01957383100322086 /* 7.png in Resources */,
+				04DE5AEB1957383100322086 /* 2.png in Resources */,
+				04DE5AE91957383100322086 /* 0.png in Resources */,
+				04DE5AFB1957394300322086 /* images.plist in Resources */,
+				04DE5AF21957383100322086 /* 9.png in Resources */,
+				04DE5ABD1957045900322086 /* Images.xcassets in Resources */,
+				04DE5AAF1957045900322086 /* InfoPlist.strings in Resources */,
+				04DE5AEF1957383100322086 /* 6.png in Resources */,
+				04DE5AF31957383100322086 /* 10.png in Resources */,
+				04DE5AED1957383100322086 /* 4.png in Resources */,
+				04DE5AF81957383100322086 /* 15.png in Resources */,
+				04DE5AF71957383100322086 /* 14.png in Resources */,
+				04DE5AF41957383100322086 /* 11.png in Resources */,
+				04DE5AB81957045900322086 /* Main.storyboard in Resources */,
+				04DE5AF51957383100322086 /* 12.png in Resources */,
+				04DE5AF61957383100322086 /* 13.png in Resources */,
+				04DE5AEE1957383100322086 /* 5.png in Resources */,
+				04DE5AEC1957383100322086 /* 3.png in Resources */,
+				04DE5AEA1957383100322086 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DE5AC01957045900322086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5ACE1957045900322086 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DE5A9D1957045900322086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5ABB1957045900322086 /* ViewController.m in Sources */,
+				04DE5AB51957045900322086 /* AppDelegate.m in Sources */,
+				04DE5AB11957045900322086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DE5ABE1957045900322086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE5AD01957045900322086 /* photoAblumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DE5AC81957045900322086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DE5AA01957045900322086 /* photoAblum */;
+			targetProxy = 04DE5AC71957045900322086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DE5AAD1957045900322086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DE5AAE1957045900322086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04DE5AB61957045900322086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DE5AB71957045900322086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DE5ACC1957045900322086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DE5ACD1957045900322086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DE5AD11957045900322086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DE5AD21957045900322086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DE5AD41957045900322086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoAblum/photoAblum-Prefix.pch";
+				INFOPLIST_FILE = "photoAblum/photoAblum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04DE5AD51957045900322086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoAblum/photoAblum-Prefix.pch";
+				INFOPLIST_FILE = "photoAblum/photoAblum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04DE5AD71957045900322086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photoAblum.app/photoAblum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoAblum/photoAblum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "photoAblumTests/photoAblumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04DE5AD81957045900322086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photoAblum.app/photoAblum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoAblum/photoAblum-Prefix.pch";
+				INFOPLIST_FILE = "photoAblumTests/photoAblumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DE5A9C1957045900322086 /* Build configuration list for PBXProject "photoAblum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DE5AD11957045900322086 /* Debug */,
+				04DE5AD21957045900322086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DE5AD31957045900322086 /* Build configuration list for PBXNativeTarget "photoAblum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DE5AD41957045900322086 /* Debug */,
+				04DE5AD51957045900322086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DE5AD61957045900322086 /* Build configuration list for PBXNativeTarget "photoAblumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DE5AD71957045900322086 /* Debug */,
+				04DE5AD81957045900322086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DE5A991957045900322086 /* Project object */;
+}
