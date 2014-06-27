@@ -44,6 +44,9 @@
     _selectedCityRow = 0;
     _row = 0;
     
+    self.text.inputView = self.picker;
+    self.text.delegate = self;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -89,6 +92,15 @@
         _selectedProviceRow = row;
     }
     
-    NSLog(@"%d---%d",_selectedCityRow,_selectedProviceRow);
+    NSString *proVal = _provices[_selectedCityRow][_selectedProviceRow];
+    NSString *cityVal = _cities[_selectedCityRow];
+    
+    self.text.text = [NSString stringWithFormat:@"%@ / %@",cityVal,proVal];
+}
+
+-(void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    self.picker.hidden = NO;
+    textField.text = [NSString stringWithFormat:@"%@ / %@",_cities[0],_provices[0][0]];
 }
 @end
