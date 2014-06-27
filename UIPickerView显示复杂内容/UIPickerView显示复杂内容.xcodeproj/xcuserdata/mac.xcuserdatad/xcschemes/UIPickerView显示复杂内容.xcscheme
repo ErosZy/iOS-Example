@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04240BAD195D608300F07734"
+               BuildableName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.app"
+               BlueprintName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;"
+               ReferencedContainer = "container:UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04240BCE195D608300F07734"
+               BuildableName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;Tests.xctest"
+               BlueprintName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;Tests"
+               ReferencedContainer = "container:UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04240BAD195D608300F07734"
+            BuildableName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.app"
+            BlueprintName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;"
+            ReferencedContainer = "container:UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04240BAD195D608300F07734"
+            BuildableName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.app"
+            BlueprintName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;"
+            ReferencedContainer = "container:UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04240BAD195D608300F07734"
+            BuildableName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.app"
+            BlueprintName = "UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;"
+            ReferencedContainer = "container:UIPickerView&#26174;&#31034;&#22797;&#26434;&#20869;&#23481;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
