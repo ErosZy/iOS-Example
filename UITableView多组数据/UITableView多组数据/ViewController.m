@@ -64,4 +64,18 @@
     return _cities[section];
 }
 
+-(NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+{
+    if(!section){
+        return @"北京是首都";
+    }else{
+        return @"重庆是山城";
+    }
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return _cities;
+}
+
 @end
