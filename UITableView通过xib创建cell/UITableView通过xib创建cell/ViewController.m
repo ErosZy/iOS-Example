@@ -74,3 +74,9 @@
 }
 
 @end
+
+@protocol <#protocol name#> <NSObject>
+
+<#methods#>
+
+@end
