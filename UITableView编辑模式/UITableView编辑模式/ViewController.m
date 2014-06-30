@@ -27,8 +27,6 @@
     for(int i = 0; i < 30; i++){
         [self.mutableData addObject:[NSString stringWithFormat:@"abcdefg%d",number++]];
     }
-    
-    NSLog(@"%@",self.mutableData);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
