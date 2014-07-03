@@ -22,6 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    
     self.mutableData = [NSMutableArray array];
     
     for(int i = 0; i < 30; i++){
@@ -29,6 +30,10 @@
         NSString *image = [NSString stringWithFormat:@"images.bundle/tmall_icon_cat_outing_%d",arc4random_uniform(11)+1];
         self.mutableData[i] = @{@"title":title,@"image":image};
     }
+    
+    [self.mutableData enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        *stop = YES;
+    }];
     
     self.tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
     
