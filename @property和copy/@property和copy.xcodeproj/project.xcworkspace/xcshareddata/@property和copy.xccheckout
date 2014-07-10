@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9FB1405E-FC0C-4B4B-92C0-01E2CD29A6D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>@property和copy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1BDA51F1-72DD-4819-B607-36D53E006612</key>
+		<string>https://github.com/ErosZy/IOS-Exercise</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>@property和copy/@property和copy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1BDA51F1-72DD-4819-B607-36D53E006612</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ErosZy/IOS-Exercise</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1BDA51F1-72DD-4819-B607-36D53E006612</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1BDA51F1-72DD-4819-B607-36D53E006612</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS-Exercise</string>
+		</dict>
+	</array>
+</dict>
+</plist>
