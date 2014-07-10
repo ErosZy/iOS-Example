@@ -20,6 +20,11 @@
     }
 }
 
+-(NSString *)school
+{
+    return _school;
+}
+
 -(void)dealloc
 {
     [_school release];
