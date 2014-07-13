@@ -10,6 +10,7 @@
 		04FD5B97196ED4F200BB7C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD5B96196ED4F200BB7C8B /* Foundation.framework */; };
 		04FD5B9A196ED4F200BB7C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD5B99196ED4F200BB7C8B /* main.m */; };
 		04FD5B9E196ED4F200BB7C8B /* ______copy__.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04FD5B9D196ED4F200BB7C8B /* ______copy__.1 */; };
+		04FD5BA6196ED50000BB7C8B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD5BA5196ED50000BB7C8B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		04FD5B99196ED4F200BB7C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FD5B9C196ED4F200BB7C8B /* 普通对象实现copy协议-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "普通对象实现copy协议-Prefix.pch"; sourceTree = "<group>"; };
 		04FD5B9D196ED4F200BB7C8B /* ______copy__.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "______copy__.1"; sourceTree = "<group>"; };
+		04FD5BA4196ED50000BB7C8B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04FD5BA5196ED50000BB7C8B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		04FD5B98196ED4F200BB7C8B /* 普通对象实现copy协议 */ = {
 			isa = PBXGroup;
 			children = (
+				04FD5BA4196ED50000BB7C8B /* Person.h */,
+				04FD5BA5196ED50000BB7C8B /* Person.m */,
 				04FD5B99196ED4F200BB7C8B /* main.m */,
 				04FD5B9D196ED4F200BB7C8B /* ______copy__.1 */,
 				04FD5B9B196ED4F200BB7C8B /* Supporting Files */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD5BA6196ED50000BB7C8B /* Person.m in Sources */,
 				04FD5B9A196ED4F200BB7C8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

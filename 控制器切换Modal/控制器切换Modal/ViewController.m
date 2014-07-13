@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "newViewController.h"
 @interface ViewController ()
 
 @end
@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)goModal:(id)sender {
+    newViewController *view = [[newViewController alloc] init];
+    [self presentViewController:view animated:YES completion:nil];
+    
+}
 @end

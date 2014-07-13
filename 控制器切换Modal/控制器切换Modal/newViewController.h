@@ -10,4 +10,6 @@
 
 @interface newViewController : ViewController
 
+- (IBAction)goBack:(id)sender;
+
 @end

@@ -21,6 +21,7 @@
 		04FD5BD5196ED6E000BB7C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD5BB7196ED6E000BB7C8B /* UIKit.framework */; };
 		04FD5BDD196ED6E000BB7C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FD5BDB196ED6E000BB7C8B /* InfoPlist.strings */; };
 		04FD5BDF196ED6E000BB7C8B /* _____ModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD5BDE196ED6E000BB7C8B /* _____ModalTests.m */; };
+		04FD5BEA196ED73000BB7C8B /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD5BE9196ED73000BB7C8B /* newViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04FD5BDA196ED6E000BB7C8B /* 控制器切换ModalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "控制器切换ModalTests-Info.plist"; sourceTree = "<group>"; };
 		04FD5BDC196ED6E000BB7C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04FD5BDE196ED6E000BB7C8B /* _____ModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____ModalTests.m"; sourceTree = "<group>"; };
+		04FD5BE8196ED73000BB7C8B /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		04FD5BE9196ED73000BB7C8B /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		04FD5BB9196ED6E000BB7C8B /* 控制器切换Modal */ = {
 			isa = PBXGroup;
 			children = (
+				04FD5BE8196ED73000BB7C8B /* newViewController.h */,
+				04FD5BE9196ED73000BB7C8B /* newViewController.m */,
 				04FD5BC2196ED6E000BB7C8B /* AppDelegate.h */,
 				04FD5BC3196ED6E000BB7C8B /* AppDelegate.m */,
 				04FD5BC5196ED6E000BB7C8B /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				04FD5BCA196ED6E000BB7C8B /* ViewController.m in Sources */,
 				04FD5BC4196ED6E000BB7C8B /* AppDelegate.m in Sources */,
 				04FD5BC0196ED6E000BB7C8B /* main.m in Sources */,
+				04FD5BEA196ED73000BB7C8B /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
