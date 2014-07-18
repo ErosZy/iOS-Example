@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<videos>
+    <video id="1">
+        <name>01.C语言-语法预览</name>
+        <length>320</length>
+        <videoURL>/itcast/videos/01.C语言-语法预览.mp4</videoURL>
+        <imageURL>/itcast/images/head1.png</imageURL>
+        <des>C语言-语法预览</des>
+        <teacher>李明杰</teacher>
+    </video>
+    <video id="2">
+        <name>01.C语言-语法预览</name>
+        <length>320</length>
+        <videoURL>/itcast/videos/01.C语言-语法预览.mp4</videoURL>
+        <imageURL>/itcast/images/head1.png</imageURL>
+        <des>C语言-语法预览</des>
+        <teacher>李明杰</teacher>
+    </video>
+</videos>
