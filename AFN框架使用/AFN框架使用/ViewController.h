@@ -13,6 +13,8 @@
 - (IBAction)sendPOST:(id)sender;
 - (IBAction)download:(id)sender;
 - (IBAction)upload:(id)sender;
+- (IBAction)uploadWithStream:(id)sender;
+- (IBAction)netWorkReachable:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *textField;
 
 @end

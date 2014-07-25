@@ -93,6 +93,46 @@
     [upload resume];
 }
 
+- (IBAction)uploadWithStream:(id)sender {
+    NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:config];
+    
+    NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://localhost:8080/post" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        [formData appendPartWithFileURL:[NSURL fileURLWithPath:@"/User/Application/Download/download.zip"] name:@"uploadFile" error:nil];
+    } error:nil];
+    
+    NSURLSessionUploadTask *upload = [manager uploadTaskWithStreamedRequest:request progress:nil completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+        NSLog(@"complete");
+    }];
+    
+    [upload resume];
+}
+
+- (IBAction)netWorkReachable:(id)sender {
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        NSLog(@"%@",AFStringFromNetworkReachabilityStatus(status));
+    }];
+    
+    AFHTTPRequestOperationManager *request = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:@"http://localhost:8080/post"]];
+    
+    NSOperationQueue *operationQueue = request.operationQueue;
+    
+    AFNetworkReachabilityManager *manager = request.reachabilityManager;
+    [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        NSLog(@"%d",status);
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+                [operationQueue setSuspended:NO];
+                break;
+            case AFNetworkReachabilityStatusNotReachable:
+            default:
+                [operationQueue setSuspended:YES];
+                break;
+        }
+    }];
+}
+
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if(context == @"Progress"){
