@@ -377,6 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableView好友列表/UITableView好友列表-Prefix.pch";
 				INFOPLIST_FILE = "UITableView好友列表/UITableView好友列表-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableView好友列表/UITableView好友列表-Prefix.pch";
 				INFOPLIST_FILE = "UITableView好友列表/UITableView好友列表-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				04A1F6621961A0E100DD9262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A1F6631961A0E100DD9262 /* Build configuration list for PBXNativeTarget "UITableView好友列表Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				04A1F6651961A0E100DD9262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
