@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E7AE9E7F-52D0-4767-889D-31BCAC42C173</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Quart2D redraw以及PDF生成</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FBB52EC4-03E6-498D-8182-8D3A1A8B586A</key>
+		<string>https://github.com/ErosZy/IOS-Exercise</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Quart2D redraw以及PDF生成/Quart2D redraw以及PDF生成.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FBB52EC4-03E6-498D-8182-8D3A1A8B586A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ErosZy/IOS-Exercise</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FBB52EC4-03E6-498D-8182-8D3A1A8B586A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBB52EC4-03E6-498D-8182-8D3A1A8B586A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS-Exercise</string>
+		</dict>
+	</array>
+</dict>
+</plist>
