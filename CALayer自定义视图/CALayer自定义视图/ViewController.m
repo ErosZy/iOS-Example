@@ -18,6 +18,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    CALayer *sublayer = [CALayer layer];
+    [sublayer setBounds:CGRectMake(0, 0, 50, 50)];
+    [sublayer setDelegate:self];
+    [sublayer setNeedsDisplay];
+    [self.view.layer addSublayer:sublayer];
+}
+
+-(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx
+{
+    CGContextBeginPath(ctx);
+    CGContextSetRGBFillColor(ctx, 1, 0, 0, 1);
+    CGContextFillRect(ctx, CGRectMake(0, 0, 50, 50));
 }
 
 - (void)didReceiveMemoryWarning

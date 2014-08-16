@@ -21,6 +21,7 @@
 		0447387B199F64E200BDAAC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447385D199F64E200BDAAC6 /* UIKit.framework */; };
 		04473883199F64E200BDAAC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04473881199F64E200BDAAC6 /* InfoPlist.strings */; };
 		04473885199F64E200BDAAC6 /* CALayer_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04473884199F64E200BDAAC6 /* CALayer_____Tests.m */; };
+		04473893199F899300BDAAC6 /* myLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04473892199F899300BDAAC6 /* myLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04473880199F64E200BDAAC6 /* CALayer自定义视图Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CALayer自定义视图Tests-Info.plist"; sourceTree = "<group>"; };
 		04473882199F64E200BDAAC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04473884199F64E200BDAAC6 /* CALayer_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer_____Tests.m"; sourceTree = "<group>"; };
+		04473891199F899300BDAAC6 /* myLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLayer.h; sourceTree = "<group>"; };
+		04473892199F899300BDAAC6 /* myLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		0447385F199F64E200BDAAC6 /* CALayer自定义视图 */ = {
 			isa = PBXGroup;
 			children = (
+				04473891199F899300BDAAC6 /* myLayer.h */,
+				04473892199F899300BDAAC6 /* myLayer.m */,
 				04473868199F64E200BDAAC6 /* AppDelegate.h */,
 				04473869199F64E200BDAAC6 /* AppDelegate.m */,
 				0447386B199F64E200BDAAC6 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				04473870199F64E200BDAAC6 /* ViewController.m in Sources */,
 				0447386A199F64E200BDAAC6 /* AppDelegate.m in Sources */,
 				04473866199F64E200BDAAC6 /* main.m in Sources */,
+				04473893199F899300BDAAC6 /* myLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CALayer自定义视图/CALayer自定义视图-Prefix.pch";
 				INFOPLIST_FILE = "CALayer自定义视图/CALayer自定义视图-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CALayer自定义视图/CALayer自定义视图-Prefix.pch";
 				INFOPLIST_FILE = "CALayer自定义视图/CALayer自定义视图-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +468,7 @@
 				0447388A199F64E200BDAAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0447388B199F64E200BDAAC6 /* Build configuration list for PBXNativeTarget "CALayer自定义视图Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				0447388D199F64E200BDAAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
