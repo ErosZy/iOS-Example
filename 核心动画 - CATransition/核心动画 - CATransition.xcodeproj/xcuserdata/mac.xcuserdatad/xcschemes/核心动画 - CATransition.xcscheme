@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04E6FA3419A33AD600FF598F"
+               BuildableName = "&#26680;&#24515;&#21160;&#30011; - CATransition.app"
+               BlueprintName = "&#26680;&#24515;&#21160;&#30011; - CATransition"
+               ReferencedContainer = "container:&#26680;&#24515;&#21160;&#30011; - CATransition.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04E6FA5519A33AD600FF598F"
+               BuildableName = "&#26680;&#24515;&#21160;&#30011; - CATransitionTests.xctest"
+               BlueprintName = "&#26680;&#24515;&#21160;&#30011; - CATransitionTests"
+               ReferencedContainer = "container:&#26680;&#24515;&#21160;&#30011; - CATransition.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04E6FA3419A33AD600FF598F"
+            BuildableName = "&#26680;&#24515;&#21160;&#30011; - CATransition.app"
+            BlueprintName = "&#26680;&#24515;&#21160;&#30011; - CATransition"
+            ReferencedContainer = "container:&#26680;&#24515;&#21160;&#30011; - CATransition.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04E6FA3419A33AD600FF598F"
+            BuildableName = "&#26680;&#24515;&#21160;&#30011; - CATransition.app"
+            BlueprintName = "&#26680;&#24515;&#21160;&#30011; - CATransition"
+            ReferencedContainer = "container:&#26680;&#24515;&#21160;&#30011; - CATransition.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04E6FA3419A33AD600FF598F"
+            BuildableName = "&#26680;&#24515;&#21160;&#30011; - CATransition.app"
+            BlueprintName = "&#26680;&#24515;&#21160;&#30011; - CATransition"
+            ReferencedContainer = "container:&#26680;&#24515;&#21160;&#30011; - CATransition.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
