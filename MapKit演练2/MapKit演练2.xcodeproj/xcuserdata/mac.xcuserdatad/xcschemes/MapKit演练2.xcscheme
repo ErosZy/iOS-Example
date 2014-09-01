@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "041F0CBD1984F32600997AEA"
-               BuildableName = "WebView&#x7684;&#x4f7f;&#x7528;.app"
-               BlueprintName = "WebView&#x7684;&#x4f7f;&#x7528;"
-               ReferencedContainer = "container:WebView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "0431A12919B4A636002D8509"
+               BuildableName = "MapKit&#x6f14;&#x7ec3;2.app"
+               BlueprintName = "MapKit&#x6f14;&#x7ec3;2"
+               ReferencedContainer = "container:MapKit&#x6f14;&#x7ec3;2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "041F0CDE1984F32600997AEA"
-               BuildableName = "WebView&#x7684;&#x4f7f;&#x7528;Tests.xctest"
-               BlueprintName = "WebView&#x7684;&#x4f7f;&#x7528;Tests"
-               ReferencedContainer = "container:WebView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "0431A14A19B4A636002D8509"
+               BuildableName = "MapKit&#x6f14;&#x7ec3;2Tests.xctest"
+               BlueprintName = "MapKit&#x6f14;&#x7ec3;2Tests"
+               ReferencedContainer = "container:MapKit&#x6f14;&#x7ec3;2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041F0CBD1984F32600997AEA"
-            BuildableName = "WebView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "WebView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:WebView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "0431A12919B4A636002D8509"
+            BuildableName = "MapKit&#x6f14;&#x7ec3;2.app"
+            BlueprintName = "MapKit&#x6f14;&#x7ec3;2"
+            ReferencedContainer = "container:MapKit&#x6f14;&#x7ec3;2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041F0CBD1984F32600997AEA"
-            BuildableName = "WebView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "WebView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:WebView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "0431A12919B4A636002D8509"
+            BuildableName = "MapKit&#x6f14;&#x7ec3;2.app"
+            BlueprintName = "MapKit&#x6f14;&#x7ec3;2"
+            ReferencedContainer = "container:MapKit&#x6f14;&#x7ec3;2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "041F0CBD1984F32600997AEA"
-            BuildableName = "WebView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "WebView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:WebView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "0431A12919B4A636002D8509"
+            BuildableName = "MapKit&#x6f14;&#x7ec3;2.app"
+            BlueprintName = "MapKit&#x6f14;&#x7ec3;2"
+            ReferencedContainer = "container:MapKit&#x6f14;&#x7ec3;2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

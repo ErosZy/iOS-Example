@@ -381,7 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "多线程/多线程-Prefix.pch";
 				INFOPLIST_FILE = "多线程/多线程-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,7 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "多线程/多线程-Prefix.pch";
 				INFOPLIST_FILE = "多线程/多线程-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +462,7 @@
 				043AB4DA197D45EE00D5042E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043AB4DB197D45EE00D5042E /* Build configuration list for PBXNativeTarget "多线程Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				043AB4DD197D45EE00D5042E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
